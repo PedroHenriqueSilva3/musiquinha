@@ -1,0 +1,208 @@
+
+
+body {
+        font-family: nunito, sans-serif;
+        color: #ffffff;
+        background-color: black;
+        background-image: linear-gradient(to bottom right,rgb(168, 168, 168), rgb(194, 0, 194), black);
+}
+
+h1, h2, h3 {
+    font-family: asap, sans-serif;
+    color: #ffffff;
+}
+
+.botao {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+/*  Navegação */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(194, 0, 194);
+}
+
+nav > a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: lora, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+nav ul li a {
+
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+/* Introdução */
+
+header {
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../imagens/fundomusica.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+
+}
+
+header h1 {
+    color: #000000;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    color: #000000;
+}
+
+#sobre h2 {
+    color: #000000;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+
+}
+
+
+/* Lançamentos */
+
+#lançamentos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+#lançamentos div {
+    font-family: yellowtail;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#gêneros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Ofertas */
+
+#ofertas {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom right, black, purple, white);
+    padding: 30px;
+    width: 26%;
+    height: 31%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    font-size: 1.3em;
+}
+
+.card2 {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom left, black, purple, white);
+    padding: 30px;
+    width: 26%;
+    height: 31%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    font-size: 1.3em;
+}
+
+.card3 {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, black, purple, white);
+    padding: 30px;
+    width: 26%;
+    height: 31%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    font-size: 1.3em;
+}
+
+/* Contatos */
+
+#contatos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+
+}
+
+#fotos {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
